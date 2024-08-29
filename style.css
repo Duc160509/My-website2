@@ -1,9 +1,9 @@
+img{
+    transition: 1.5s;
+}
 body{ 
-    background-image: url(./img/101.jpg);
+    background-image: url(./img/background.jpg);
 }
-h2,
-p{
-    opacity: 0.5;
-    
+input:checked ~ img{
+    display: none;
 }
-
